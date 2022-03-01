@@ -1,0 +1,25 @@
+.lead {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 32px 0 0;
+  text-align: center;
+  transition: all .2s linear;
+}
+
+@media screen and (min-width: 426px) {
+  .lead {
+    padding: 20px 0 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    padding: 20px 48px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    padding: 28px 0 0;
+  }
+}

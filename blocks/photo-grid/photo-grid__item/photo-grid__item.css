@@ -1,0 +1,27 @@
+.photo-grid__item {
+  display: block;
+  margin: 12px 0 0;
+  width: 100%;
+  transition: all .2s linear;
+}
+
+@media screen and (min-width: 426px) {
+  .photo-grid__item {
+    margin: 16px 0 0;
+    width: calc((100% / 2) - 7.5px);
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .photo-grid__item {
+    margin: 14px 0 0;
+    width: calc((100% / 3) - 9px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grid__item {
+    margin: 16px 0 0;
+    width: calc((100% / 4) - 12px);
+  }
+}

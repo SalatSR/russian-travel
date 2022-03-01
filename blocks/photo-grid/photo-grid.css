@@ -1,0 +1,27 @@
+.photo-grid {
+  margin: 0;
+  padding: 52px 16px 14px;
+  transition: all .2s linear;
+}
+
+@media screen and (min-width: 426px) {
+  .photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 72px 24px 15px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .photo-grid  {
+    padding: 78px 48px 12px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grid  {
+    padding: 78px 0 12px;
+  }
+}

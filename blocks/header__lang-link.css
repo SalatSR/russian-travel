@@ -1,0 +1,41 @@
+.header__lang-link {
+  position: relative;
+  display: inline-block;
+  padding: 9px 0 0;
+  margin: 0 0 0 15px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.11;
+  transition: all .2s linear;
+}
+
+.header__lang-link:first-child {
+  margin: 0;
+}
+
+.header__lang-link:active, /* активная/посещенная ссылка */
+.header__lang-link:hover,  /* при наведении */
+.header__lang-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__lang-link:hover::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+  transition: all .2s linear;
+}
+
+@media screen and (min-width: 426px) {
+  .header__lang-link {
+    padding: 12px 0 0;
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}

@@ -1,0 +1,23 @@
+.place__link:active,
+.place__link:hover,
+.place__link {
+  color: #fff;
+  position: relative;
+  display: inline;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration: none;
+  padding: 0;
+}
+
+.place__link::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+}

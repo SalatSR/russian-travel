@@ -1,0 +1,22 @@
+.place__image {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+  .place__image {
+    width: calc(100% - 7px);
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .place__image {
+    width: calc(100% - 8px);
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .place__image {
+    width: calc(100% - 12px);
+  }
+}

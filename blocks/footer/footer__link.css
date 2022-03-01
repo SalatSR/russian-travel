@@ -1,0 +1,23 @@
+.footer__link:visited,
+.footer__link:active,
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__link {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 24px;
+  transition: all .2s linear;
+}
+
+@media screen and (min-width: 720px) {
+  .footer__link {
+    display: flex;
+    font-size: 16px;
+    line-height: 1.125;
+    margin: 0 18px 0 0;
+  }
+}

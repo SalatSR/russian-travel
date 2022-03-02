@@ -1,11 +1,12 @@
-.container {
+.page__content {
   margin: 0 auto;
   padding: 0;
   width: 100%;
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  .page__content {
+    box-sizing: border-box;
     max-width: 1280px;
     width: auto;
     padding: 0 48px;

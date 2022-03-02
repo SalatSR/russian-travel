@@ -1,0 +1,29 @@
+.places {
+  margin: 0;
+  padding: 64px 0 0;
+  transition: all .2s linear;
+}
+
+@media screen and (min-width: 426px) {
+  .places {
+    padding: 75px 0 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .places {
+    padding: 88px 24px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places {
+    padding: 92px 48px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .places {
+    padding: 92px 100px 0;
+  }
+}

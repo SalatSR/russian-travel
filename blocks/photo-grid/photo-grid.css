@@ -1,6 +1,6 @@
 .photo-grid {
   margin: 0;
-  padding: 52px 16px 14px;
+  padding: 52px 16px 0;
   transition: all .2s linear;
 }
 
@@ -10,18 +10,18 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0;
-    padding: 72px 24px 15px;
+    padding: 72px 24px 0;
   }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
   .photo-grid  {
-    padding: 78px 48px 12px;
+    padding: 78px 48px 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .photo-grid  {
-    padding: 78px 0 12px;
+    padding: 78px 0 0;
   }
 }

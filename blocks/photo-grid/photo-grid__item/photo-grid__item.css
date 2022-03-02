@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
   .photo-grid__item {
     margin: 14px 0 0;
     width: calc((100% / 3) - 9px);

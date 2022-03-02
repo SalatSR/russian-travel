@@ -12,15 +12,10 @@
   margin: 0;
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
   .place__paragraph {
     font-size: 18px;
     line-height: 1.61;
     margin: 0 0 27px;
-  }
-}
-
-@media screen and (min-width: 1279px) {
-  .place__paragraph {
   }
 }

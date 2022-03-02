@@ -1,10 +1,4 @@
 .cover {
-  padding: 66px 0 0;
+  padding: 0;
   text-align: center;
-}
-
-@media screen and (min-width: 426px) {
-  .cover {
-    padding: 92px 0 0;
-  }
 }

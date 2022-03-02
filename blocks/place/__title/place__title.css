@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .place__title {
     font-size: 42px;
     line-height: 1.095;
@@ -25,14 +25,9 @@
   }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
   .place__title {
     font-size: 72px;
     line-height: 1.055;
-  }
-}
-
-@media screen and (min-width: 1279px) {
-  .place__title {
   }
 }

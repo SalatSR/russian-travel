@@ -22,6 +22,7 @@
 @import url(../blocks/intro/__list-span/intro__list-span_number.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/photo-grid__item/photo-grid__item.css);
+@import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__inner-paragraphs/place__inner-paragraphs.css);
 @import url(../blocks/place/__title/place__title.css);

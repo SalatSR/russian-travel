@@ -10,7 +10,7 @@
   margin: 0 0 12px;
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
   .place__url-heading {
     line-height: 1.7;
   }

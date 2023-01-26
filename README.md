@@ -15,6 +15,7 @@ https://salatsr.github.io/russian-travel/
 - методология БЭМ (Nested);
 - flexbox верстка;
 - grid верстка;
+- perfectpixel;
 - @media запросы.
 
 ## Инструкция по локальному запуску:
